@@ -1,0 +1,8 @@
+{
+  "asset": "asset:flutter_injector_example/lib/repository/user_repository.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "asset": "asset:flutter_injector_example/lib/di/app_injector.dart",
+  "summary": {
+    "injector": [
+      {
+        "name": "AppInjector",
+        "providers": [
+          {
+            "name": "app",
+            "kind": "getter",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:flutter_injector_example/lib/main.dart#MyApp",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          },
+          {
+            "name": "counterView",
+            "kind": "getter",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:flutter_injector_example/lib/view/counter_view.dart#CounterView",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          },
+          {
+            "name": "counterEventView",
+            "kind": "getter",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:flutter_injector_example/lib/view/counter_event_view.dart#CounterEventView",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          }
+        ],
+        "modules": []
+      }
+    ],
+    "module": [],
+    "injectable": []
+  }
+}
